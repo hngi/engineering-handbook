@@ -23,7 +23,7 @@
 
 ### Introduction
 ***
-The following are rules guiding our coding process. Common linting and prettier standards are listed below, and they are based on our work with TypeScript, which is our development language. Projects should extend these linting and prettier standards within their codebase as may be needed.
+The following are rules guiding our coding process. Common linting and prettier standards are listed below. Projects should extend these linting and formatting standards within their codebase as may be needed.
 
 ### Automagic Formatting
 ***
@@ -170,7 +170,7 @@ Giving us `ExampleFileServiceInterface.ts`.
 ***
 Branches created should be named using the following format:
 
-> Replace JIRA_ISSUE_ID with ID from the project management tool you are using eg. Clubhouse. Also integrate your project management tool to github is that is possible
+> Replace JIRA_ISSUE_ID with ID from the project management tool you are using eg. Clubhouse. Also integrate your project management tool to github if that is possible
 
 ```
 {issue type}/{Jira issue ID}-{issue summary}
@@ -285,7 +285,7 @@ DT-1048-story(kafka): implement exactly once delivery
 
 > NOTE: Every pull request should have at least two approvals before it can be merged.
 
-Please copy both [PR and ISSUE]() template to your codebase
+Please copy both [PR and ISSUE](https://github.com/hngi/engineering-handbook/tree/master/.github) template to your codebase
 
 #### PR Title
 ***
